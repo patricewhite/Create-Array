@@ -40,9 +40,3 @@ var get = function(ptr) {
 var set = function(ptr, value) {
     memory[ptr] = value;
 };
-
-exports.allocate = allocate;
-exports.free = free;
-exports.copy = copy;
-exports.get = get;
-exports.set = set;
